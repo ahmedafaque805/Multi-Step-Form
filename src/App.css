@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #76d7c4  ;
+}
+
+.error{
+    color: red;
+    margin-left: 1rem;
+}
+
+/* ******************* Form-1 ******************* */
+
+.Form1-Heading{
+    text-align: center;
+    font-weight: 100;
+}
+.Form1-Card{
+    text-align: center;
+    margin: 2rem 12rem;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4) !important;
+}
+.Form1-Card-C{
+    background-color:  #f4f6f7 ;
+}
+.Form1-i{ 
+    margin-top: 1rem !important;
+    width: 17rem !important;
+}
+.Form1-btn{
+    padding: 15px 50px;
+    margin-top: 1rem;
+    background-color: #76d7c4;
+    border-radius: 20px;
+    border: #76d7c4 solid;
+    cursor: pointer;
+    font-size: large;
+}
+.Form1-btn:hover{
+    background-color: #9cf1e0;
+    border: #9cf1e0 solid;
+}
+
+/* ******************* Form-2 ******************* */
+
+
+.Form2-Heading{
+    text-align: center;
+    font-weight: 100;
+}
+.Form2-Card{
+    text-align: center;
+    margin: 2rem 12rem;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4) !important;
+}
+.Form2-Card-C{
+    background-color:  #f4f6f7 ;
+}
+.Form2-i{ 
+    margin-top: 1rem !important;
+    width: 60% !important;
+}
+.Form2-btn{
+    padding: 15px 50px;
+    margin-top: 1rem;
+    background-color: #76d7c4;
+    border-radius: 20px;
+    border: #76d7c4 solid;
+    cursor: pointer;
+    font-size: large;
+}
+.Form2-btn:hover{
+    background-color: #9cf1e0;
+    border: #9cf1e0 solid;
+}
+
+
+/* ******************* Form-3 ******************* */
+
+
+.Form3-Heading{
+    text-align: center;
+    font-weight: 100;
+}
+.Form3-Card{
+    text-align: center;
+    margin: 2rem 12rem;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4) !important;
+}
+.Form3-Card-C{
+    background-color:  #f4f6f7 ;
+}
+.Form3-i{ 
+    margin-top: 1rem !important;
+    width: 60% !important;
+}
+.Form3-btn{
+    padding: 15px 50px;
+    margin-top: 1rem;
+    background-color: #76d7c4;
+    border-radius: 20px;
+    border: #76d7c4 solid;
+    cursor: pointer;
+    font-size: large;
+}
+.Form3-btn:hover{
+    background-color: #9cf1e0;
+    border: #9cf1e0 solid;
+}
+
+
+
+
+/* ******************* Media Querries ******************* */
+@media (max-width: 500px){
+    .Form1-Card{
+        margin: 1rem;
+    }
+    .Form2-Card{
+        margin: 1rem;
+    }
+    .Form2-i{
+        width: 100% !important;
+    }
+    .Form3-Card{
+        margin: 1rem;
+    }
+    .Form3-i{
+        width: 100% !important;
+    }
+}
