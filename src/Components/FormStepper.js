@@ -12,6 +12,10 @@ import Lastpage from '../Components/Lastpage'
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
+    color: 'red',
+  },
+  active: {
+    color: 'red',
   },
   backButton: {
     marginRight: theme.spacing(1),
@@ -20,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(1),
   },
+
 }));
 
 function getSteps() {

@@ -8,12 +8,21 @@ body{
     color: red;
     margin-left: 1rem;
 }
-
+.MuiStepIcon-root.MuiStepIcon-active{
+    color: #359481 !important;
+}
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+    color: #2b5557 !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed{
+    color: #14625a !important;
+}
 /* ******************* Form-1 ******************* */
 
 .Form1-Heading{
     text-align: center;
     font-weight: 100;
+    color: rgba(16, 89, 72, 0.87);
 }
 .Form1-Card{
     text-align: center;
@@ -25,7 +34,7 @@ body{
 }
 .Form1-i{ 
     margin-top: 1rem !important;
-    width: 17rem !important;
+    width: 60% !important;
 }
 .Form1-btn{
     padding: 15px 50px;
@@ -115,6 +124,9 @@ body{
 @media (max-width: 500px){
     .Form1-Card{
         margin: 1rem;
+    }
+    .Form1-i{
+        width: 100% !important;
     }
     .Form2-Card{
         margin: 1rem;
